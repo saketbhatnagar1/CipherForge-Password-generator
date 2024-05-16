@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 
 function App() {
-  const [length, setLength] = useState(6);
+  const [length, setLength] = useState(6);//defaul length will be 6,useState(defaultvalue)
   const [numberallowed, setnumberallowed] = useState(false);
   const [charallowed, setcharallowed] = useState(false);
   const [password, setpassword] = useState("");
